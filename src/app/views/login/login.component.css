@@ -1,0 +1,39 @@
+.formulario-container-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.campo-formulario {
+    background-color: #467ebb;
+    color: white;
+    width: 60%;
+    min-height: 300px;
+    padding: 40px;
+    border: 10px solid white;
+    box-shadow: 0 0 0 10px #467ebb;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.campo-label label {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#botao-enviar {
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 5%;
+    margin-left: 35%;
+}
+
+.campo-formulario a {
+    text-decoration:underline;
+    color: white;
+}
